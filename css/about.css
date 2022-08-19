@@ -1,0 +1,28 @@
+#about {
+    height: 40vh;
+    background-color: white;
+    width: 100%;
+    position: relative;
+  }
+  
+  #aboutme {
+    /* min-width: 300px; */
+    width: 50%;
+    text-indent: 60px;
+    text-align: justify;
+    font-size: 1.4rem;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    margin: auto;
+    border: 10px solid transparent;
+  }
+
+  span {
+    color: royalblue;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }

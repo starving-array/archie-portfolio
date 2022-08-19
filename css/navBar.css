@@ -1,0 +1,120 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  width: 100%;
+  position: sticky;
+  height: 6vh;
+  background-color: rgb(3, 81, 184);
+  z-index: 30;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#resume {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 30px;
+  border: 1px solid rgb(3, 81, 184);
+  display: flex;
+  align-items: center;
+  border-bottom-right-radius: 20px;
+  box-shadow: 1px 2px 7px 2px rgb(3, 81, 184);
+}
+#resume:hover {
+  /* background-color: rgb(198, 217, 243); */
+  box-shadow: 1px 2px 7px 2px red;
+}
+
+#resume a {
+  text-decoration: none;
+  color: rgb(196, 28, 28);
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: auto; */
+  margin-right: 20px;
+  font-size: 1.6rem;
+  align-items: center;
+}
+
+.nav div {
+  padding: 20px;
+}
+.nav a {
+  text-decoration: none;
+  opacity: 0.8;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px;
+}
+
+.nav a:hover {
+  text-shadow: none;
+  color: rgb(255, 234, 208);
+}
+
+#headToTop {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 120;
+}
+
+#headToTop img {
+  height: 40px;
+}
+
+/* footer  */
+
+#contact img {
+  width: 20px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+}
+
+#contactIn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#contactIn div {
+  margin-bottom: 15px;
+}
+#linkdin img {
+  background-color: white;
+  border: 5px solid transparent;
+  border-radius: 10px;
+}
+
+#linkdin a {
+  margin-bottom: 10px;
+  border: 10px solid transparent;
+}
+
+#contact {
+  background-color: rgb(3, 81, 184);
+  width: 100%;
+}
+#contact h3 {
+  color: white;
+}

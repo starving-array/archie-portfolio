@@ -1,0 +1,84 @@
+/* // project  */
+
+#projects {
+  width: 70%;
+  margin: auto;
+  /* background-color: rgb(20, 223, 223); */
+  border: 20px solid transparent;
+  padding: 20px;
+}
+#projectContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px 20px;
+}
+.imgDiv img {
+  width: 500px;
+  height: 300px;
+}
+.imgDiv {
+  box-shadow: 1px 2px 10px 1px brown;
+  border: 10px solid white;
+  background-color: white;
+}
+.boxProject {
+  /* display: flex; */
+  /* width: 60%; */
+  margin: auto;
+  height: fit-content;
+  border: 20px solid transparent;
+}
+
+.despriptionImageProject h3 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.git {
+  /* background-color: aliceblue; */
+}
+.git img {
+  border: 5px solid transparent;
+  border-radius: 10px;
+  width: 30px;
+}
+
+.netlifyLink,
+.git img {
+  box-shadow: 1px 2px 6px 1px royalblue;
+  background-color: white;
+}
+
+.netlifyLink:hover,
+.git img:hover {
+  box-shadow: 1px 2px 10px 1px rgb(194, 18, 47);
+  background-color: rgb(243, 186, 186);
+}
+.netlifyLink {
+  border-radius: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 10px;
+}
+.netlifyLink a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.linksToRedirect {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#sideLine {
+  background-color: royalblue;
+}

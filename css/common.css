@@ -1,0 +1,15 @@
+.titleCenter {
+  text-align: center;
+  font-size: 2.2rem;
+  opacity: 0.8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.circle {
+  border-radius: 100%;
+}
+
+.gap {
+  padding-top: 7vh;
+}
