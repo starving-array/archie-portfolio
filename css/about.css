@@ -1,28 +1,44 @@
 #about {
-    height: 40vh;
+    min-height: 70vh;
     background-color: white;
-    width: 100%;
-    position: relative;
+    border: 20px solid transparent;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
   }
   
   #aboutme {
-    /* min-width: 300px; */
-    width: 50%;
+    width: 60%;
     text-indent: 60px;
     text-align: justify;
-    font-size: 1.4rem;
-    position: absolute;
-    bottom: 10%;
-    left: 10%;
-    right: 10%;
+    font-size: 1.8rem;
     margin: auto;
     border: 10px solid transparent;
   }
 
   span {
     color: royalblue;
-    font-size: 110%;
+    /* font-size: 110%; */
     font-weight: bold;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+
+  @media all and (min-width: 300px) and (max-width: 790px) {
+    #aboutme{
+        width: 80%;
+    }
+  }
+  @media all and (min-width: 479px) and (max-width: 690px) {
+    #aboutme{
+        font-size: 1.4rem;
+    }
+  }
+
+  @media all and (min-width: 200px) and (max-width: 480px) {
+    #aboutme{
+        font-size: 1.2rem;
+    }
   }

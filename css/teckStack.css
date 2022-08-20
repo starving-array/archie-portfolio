@@ -1,38 +1,77 @@
 /* // teck stack  */
 
 #teckstack {
-    width: 52%;
+  max-width: 800px;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border: 20px solid transparent;
+}
+
+.techStackHead {
+  font-size: 1.8rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(50, 130, 235);
+  border: 10px solid transparent;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 30%;
+  margin-right: 30px;
+  box-shadow: 1px 2px 4px 3px rgb(95, 132, 243);
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+#teckStackTitle {
+  margin-bottom: 100px;
+  display: block;
+}
+
+.techBox {
+  border-bottom: 10px solid transparent;
+}
+
+.teckChild > :nth-child(n + 1) {
+  padding: 10px;
+  box-shadow: 1px 2px 2px 1px rgb(190, 205, 252);
+  margin-right: 20px;
+  text-align: center;
+}
+
+.teckChild > :nth-child(n + 1):hover {
+  transition-duration: 1s;
+  background-color: rgb(235, 216, 183);
+  background-color: orange;
+  border-radius: 20px;
+  box-shadow: 1px 2px 2px 1px brown;
+  transform: rotate(360deg);
+}
+
+@media all and (min-width: 590px) and (max-width: 760px) {
+  .techStackHead {
+    font-size: 1.2rem;
+    width: 20%;
+    margin-right: 20px;
+  }
+  .teckChild > :nth-child(n + 1) {
+    margin-right: 10px;
+  }
+}
+
+@media all and (min-width: 200px) and (max-width: 591px) {
+  .techBox {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    margin: auto;
-    border: 30px solid transparent;
   }
-  
   .techStackHead {
-    font-size: 1.8rem;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(50, 130, 235);
-    border: 10px solid transparent;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    width: 30%;
-    margin-right: 30px;
-    box-shadow: 1px 2px 4px 3px rgb(95, 132, 243);
-    color: white;
-    text-transform: capitalize;
-    font-weight: bold;
+    width: 90%;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    box-shadow: 2px 2px 4px 4px rgb(169, 186, 235);
   }
-  
-  .techBox {
-    border-bottom: 10px solid transparent;
-  }
-  
-  .teckChild > :nth-child(n + 1) {
-    padding: 10px;
-    box-shadow: 1px 2px 2px 1px rgb(190, 205, 252);
-    margin-right: 20px;
-    text-align: center;
-  }
+}

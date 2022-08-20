@@ -47,8 +47,9 @@
           href="./Archishman_Das_Resume_19-08-2022-15-27-59.pdf"
           target="_blank"
         >
-          Resume here
+          Resume 
         </a>
+        <img src="./img/download.png" alt="">
       </div>
 
       <div class="nav">
@@ -59,19 +60,29 @@
           <a href="#projects"> Projects </a>
         </div>
         <div>
-          <a href="#contact">Hire me!</a>
+          <a href="#contact" id="hireMe">Hire me!</a>
         </div>
       </div>
     </header>
 
-    <div id="headToTop">
+    <div id="headToTop" >
       <a href="#">
           <img src="./img/up-arrow.png" alt=""/></div>
       </a>
     <!-- Main body start here  -->
 
     <div id="container">
-      <div id="profile" class="gap">
+
+
+      <div id="opening" class="gap">
+        <div>
+          <span>Hi There!</span>
+          <span id="greetings"></span>
+        </div>
+      </div>
+
+
+      <div id="profile" class="gap scrollMode">
         <div id="profilePic">
           <img
             src="./img/project_20220402_1024320-01__01(1).jpg"
@@ -79,13 +90,13 @@
           />
         </div>
         <div id="profileText">
-          <h2>Hi There!</h2>
-          <h1>I'm <span id="nameTitle">Archishman</span> <span>Das</span></h1>
-          <h2>A Full stack developer...</h2>
+          <span>I'm </span>
+          <h1><span id="nameTitle">Archishman</span> <span>Das</span></h1>
+          <span>A Full stack developer...</span>
         </div>
       </div>
 
-      <div id="about" class="gap">
+      <div id="about" class="gap scrollMode">
         <h2 class="titleCenter">About me</h2>
         <div id="aboutme">
           Self motivated, passionate full stack <span>Java</span> developer,
@@ -99,7 +110,7 @@
       </div>
 
 
-      <div id="softskill" class="gap">
+      <div id="softskill" class="gap scrollMode">
         <h3 class="titleCenter">Soft Skills</h3>
         <div id="softskillChild">
           <div class="softskill">Team Player</div>
@@ -111,18 +122,21 @@
           <div class="softskill">Dedicated</div>
         </div>
       </div>
-      <div id="teckstack" class="gap">
-        <h3 class="titleCenter">Teck Stacks</h3>
+
+      <div id="teckstack" class="gap scrollMode">
+        <h3 class="titleCenter" id="teckStackTitle">Teck Stacks</h3>
         <!-- // version control  -->
         <!-- front end  -->
         <!-- backend  -->
         <!-- framework  -->
         <!-- Data structure  -->
         <!-- IDE  -->
+        
         <div class="techBox">
           <div class="techStackHead">Version Control</div>
           <div class="teckChild"><img src="./img/github.png" alt="" /></div>
         </div>
+
         <div class="techBox">
           <div class="techStackHead">Frontend</div>
           <div class="teckChild">
@@ -232,3 +246,5 @@
 </html>
 
 <script src="./js/projects.js"></script>
+<script src="./js/greetings.js"></script>
+<script src="./js/lazyScroll.js"></script>

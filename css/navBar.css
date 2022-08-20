@@ -4,9 +4,8 @@ body {
 }
 
 header {
-  width: 100%;
   position: sticky;
-  height: 6vh;
+  min-height: 6vh;
   background-color: rgb(3, 81, 184);
   z-index: 30;
   top: 0px;
@@ -22,7 +21,7 @@ header {
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
-  height: 100%;
+  /* height: 100%; */
   padding-left: 20px;
   padding-right: 30px;
   border: 1px solid rgb(3, 81, 184);
@@ -30,6 +29,13 @@ header {
   align-items: center;
   border-bottom-right-radius: 20px;
   box-shadow: 1px 2px 7px 2px rgb(3, 81, 184);
+  display: flex;
+  align-items: center;
+}
+
+#resume img {
+  cursor: pointer;
+  margin-left: 5px;
 }
 #resume:hover {
   /* background-color: rgb(198, 217, 243); */
@@ -44,7 +50,6 @@ header {
 .nav {
   display: flex;
   flex-wrap: wrap;
-  /* margin: auto; */
   margin-right: 20px;
   font-size: 1.6rem;
   align-items: center;
@@ -57,15 +62,24 @@ header {
   text-decoration: none;
   opacity: 0.8;
   color: white;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px;
+  letter-spacing: 0.5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .nav a:hover {
-  text-shadow: none;
-  color: rgb(255, 234, 208);
+  font-weight: bold;
 }
 
+#hireMe {
+  padding: 2px;
+  opacity: 1;
+  color: orange;
+  letter-spacing: 0.6px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* // short cut to home  */
 #headToTop {
   position: fixed;
   bottom: 15px;
@@ -77,6 +91,47 @@ header {
   height: 40px;
 }
 
+@media all and (min-width: 750px) and (max-width: 1060px) {
+  #resume a {
+    font-size: 1rem;
+  }
+  .nav a {
+    font-size: 1rem;
+  }
+}
+
+@media all and (min-width: 660px) and (max-width: 751px) {
+  #resume a {
+    font-size: 1rem;
+  }
+  .nav a {
+    font-size: 0.9rem;
+  }
+  .nav div {
+    padding: 10px;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 661px) {
+  #resume a {
+    font-size: 0.91rem;
+  }
+  #resume img {
+    width: 20px;
+  }
+  .nav a {
+    font-size: 0.8rem;
+  }
+  .nav div {
+    padding: 7px;
+  }
+  .nav {
+    margin-right: 10px;
+  }
+  header {
+    flex-direction: column;
+  }
+}
 /* footer  */
 
 #contact img {
@@ -87,6 +142,9 @@ header {
   text-decoration: none;
   color: white;
   font-size: 1.4rem;
+}
+#contact a:hover {
+  color: orange;
 }
 
 #contactIn {
@@ -104,6 +162,11 @@ header {
   background-color: white;
   border: 5px solid transparent;
   border-radius: 10px;
+  box-shadow: 1px 2px 4px 1px rgb(70, 70, 70);
+}
+
+#linkdin img:hover {
+  transform: scale(1.2, 1.2);
 }
 
 #linkdin a {

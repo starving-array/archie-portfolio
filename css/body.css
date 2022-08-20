@@ -7,4 +7,17 @@
 
 
 
-
+.scrollMode{
+  position: relative;
+  transform: translateX(100px);
+  transition: 2s all ease;
+  opacity: 0;
+  /* animation-name: scroller; */
+}
+/* @keyframes scroller {
+  
+} */
+.scrollMode.show{
+  transform: translateY(0px);
+  opacity: 1;
+}
