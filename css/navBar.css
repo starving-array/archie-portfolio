@@ -4,6 +4,7 @@ body {
 }
 
 header {
+  width: 100%;
   position: sticky;
   min-height: 6vh;
   background-color: rgb(3, 81, 184);

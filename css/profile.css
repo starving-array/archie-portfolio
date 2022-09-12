@@ -72,7 +72,17 @@
   #profileText h1 {
     font-size: 2.6rem;
   }
-
+  #profile{
+    min-height: 60vh;
+  }
+  #profileText h1 {
+    font-size: 2.5rem;
+  }
+  #profilePic img {
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 10px;
+  }
   #profileText > span {
     font-size: 1.3rem;
   }
