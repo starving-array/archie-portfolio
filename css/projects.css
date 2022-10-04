@@ -112,6 +112,18 @@
   color: black;
   /* margin-bottom: 30px; */
 }
+.techStackProjectImg{
+  margin: auto;
+  width: 90%;
+  border: 20px solid transparent;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.techStackProjectImg img{
+  height: 40px;
+  margin-right: 10px;
+}
 
 @media all and (min-width: 631px) and (max-width: 1200px) {
   #projects {

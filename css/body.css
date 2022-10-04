@@ -3,13 +3,9 @@
 }
 
 
-
-
-
-
 .scrollMode{
   position: relative;
-  transform: translateX(100px);
+  transform: translate(-50px);
   transition: 2s all ease;
   opacity: 0;
   /* animation-name: scroller; */

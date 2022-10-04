@@ -33,6 +33,13 @@ let textDescription = [
   "This is clone of Geekbuying.com- e commerce website. I built the <span>header</span> section, <span>search</span>, and <span>all product</span> page. P.s - the currency option converts all the product currency according to selection.",
 ];
 
+let techStackImage = [
+  ["./img/html-5.png", "./img/js.png", "./img/css-3.png", "./img/vscode.png", "./img/github.png"],
+  ["./img/html-5.png", "./img/js.png", "./img/css-3.png","./img/vscode.png", "./img/github.png", "./img/bootstrap.png"],
+  ["./img/html-5.png", "./img/js.png", "./img/css-3.png", "./img/vscode.png", "./img/github.png", "./img/api.png"],
+  ["./img/html-5.png", "./img/js.png", "./img/css-3.png"],
+];
+
 projectDisplay();
 function projectDisplay() {
   projectBanner.forEach(function (item, index) {
@@ -57,14 +64,23 @@ function projectDisplay() {
     let h3 = document.createElement("h3");
     h3.innerText = title[index]; ///////////////////////////////////////////////////////////// 1
 
-    let spanDiv  = document.createElement("div");
+    let spanDiv = document.createElement("div");
     spanDiv.setAttribute("class", "descriptiveDiv");
 
     let spanDes = document.createElement("span");
     spanDes.setAttribute("class", "projectText");
     spanDes.innerHTML = textDescription[index];
-    
+
     spanDiv.append(spanDes);
+
+    // tech stacks
+    let techStack = document.createElement("div");
+    techStack.setAttribute("class", "techStackProjectImg");
+    techStackImage[index].forEach((data) => {
+      let imagetech = document.createElement("img");
+      imagetech.src = data;
+      techStack.append(imagetech);
+    });
     // link netlify
     // let linkProject = document.createElement("div");
     // linkProject.setAttribute("class", "linkProject");
@@ -99,7 +115,7 @@ function projectDisplay() {
 
     // end git
     linksToRedirect.append(netlifyLink, gitDiv);
-    despriptionImageProject.append(h3, spanDiv, linksToRedirect);
+    despriptionImageProject.append(h3, spanDiv, techStack, linksToRedirect);
 
     /////////////// box append banner and description
     innererMain.append(imageDiv, despriptionImageProject);
