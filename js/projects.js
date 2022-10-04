@@ -2,24 +2,28 @@ let projectDiv = document.getElementById("projectContainer");
 
 //
 let projectBanner = [
+  "./img/bus_reservation_system.png",
   "./img/mcdonals.png",
   "./img/nykaa.png",
   "./img/weather.png",
   "./img/geekbuy.png",
 ];
 let webLink = [
+  "https://drive.google.com/file/d/1l0FwiGVOrkwyMEDJ-uoaQBEkUGe3x2Bs/view?usp=sharing",
   "https://virtual-mc-donald.netlify.app/",
   "https://mellow-tanuki-fb3e28.netlify.app/",
   "https://weather-archie.netlify.app/",
   "https://adorable-cobbler-b9755b.netlify.app/index.html",
 ];
 let gitLink = [
+  "https://github.com/starving-array/Bus-Reservation-System",
   "https://github.com/starving-array/virtual_Mcdonald",
   "https://github.com/starving-array/NPM--Nykaa-Project-Masai",
   "https://github.com/starving-array/weatherApp",
   "https://github.com/starving-array/geekbuying.com",
 ];
 let title = [
+  "Bus Reservation System",
   "Virtual McDonald's",
   "Nykaa Clone",
   "Weather App",
@@ -27,17 +31,59 @@ let title = [
 ];
 
 let textDescription = [
+  "This Web-application will let A User Sign-In into the portal and to search available buses for particular destination. Its a rest API project. I have worked <span>Mapping, DL Layer </span>and <span>ER Diagram.",
   "This is a conceptual design of McDonald's counter. I Have created this with the help of <span>promise</span> concept. The order will be processing based on <span>multithreading</span> idea.",
-  "This is a clone of Nykaa.com- B2C e commerce platform. I have made the <span>header</span>, <span>nav section</span> and <span>landing page</span> with <span>HTML, CSS and JS</span>.",
+  "This is a clone of Nykaa.com- B2C e commerce platform. I have made the <span>header</span>, <span>nav section</span> and <span>landing page</span>",
   "This weather app changes background wallpaper based on the <span>time of the day</span>. It had beed built with the help of <span>weather api</span>.",
   "This is clone of Geekbuying.com- e commerce website. I built the <span>header</span> section, <span>search</span>, and <span>all product</span> page. P.s - the currency option converts all the product currency according to selection.",
 ];
 
 let techStackImage = [
-  ["./img/html-5.png", "./img/js.png", "./img/css-3.png", "./img/vscode.png", "./img/github.png"],
-  ["./img/html-5.png", "./img/js.png", "./img/css-3.png","./img/vscode.png", "./img/github.png", "./img/bootstrap.png"],
-  ["./img/html-5.png", "./img/js.png", "./img/css-3.png", "./img/vscode.png", "./img/github.png", "./img/api.png"],
-  ["./img/html-5.png", "./img/js.png", "./img/css-3.png"],
+  [
+    "./img/java.png",
+    "./img/sts.jpg",
+    "./img/hibernate.png",
+    "./img/github.png",
+    "./img/api.png",
+    "./img/mysql.png",
+    "./img/hibernate.png",
+    "./img/maven.png",
+    "./img/bootstrap.png",
+    "./img/html-5.png",
+    "./img/js.png",
+    "./img/css-3.png",
+    "./img/vscode.png",
+  ],
+  [
+    "./img/html-5.png",
+    "./img/js.png",
+    "./img/css-3.png",
+    "./img/vscode.png",
+    "./img/github.png",
+  ],
+  [
+    "./img/html-5.png",
+    "./img/js.png",
+    "./img/css-3.png",
+    "./img/vscode.png",
+    "./img/github.png",
+    "./img/bootstrap.png",
+  ],
+  [
+    "./img/html-5.png",
+    "./img/js.png",
+    "./img/css-3.png",
+    "./img/vscode.png",
+    "./img/github.png",
+    "./img/api.png",
+  ],
+  [
+    "./img/html-5.png",
+    "./img/js.png",
+    "./img/css-3.png",
+    "./img/vscode.png",
+    "./img/github.png",
+  ],
 ];
 
 projectDisplay();

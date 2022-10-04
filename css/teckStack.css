@@ -2,11 +2,11 @@
 
 #teckstack {
   max-width: 800px;
-  min-height: 70vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   margin: auto;
-  border: 20px solid transparent;
+  border: 10px solid transparent;
 }
 
 .techStackHead {
