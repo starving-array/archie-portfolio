@@ -43,7 +43,7 @@
 }
 
 /* statistics */
-#statCont{
+#statCont {
   min-height: 30vh;
   display: flex;
   flex-direction: column;
@@ -78,24 +78,23 @@
   border-radius: 30px;
   cursor: zoom-in;
 }
-.stat>span{
+.stat > span {
   color: white;
   padding: 10px 5px;
 }
 
-.stat:hover{
+.stat:hover {
   transform: scale(1.2, 1.2);
   transition-duration: 1s;
   background-color: orange;
 }
 
 
-.calendar{
-
+@media all and (min-width: 300px) and (max-width: 1030px) {
+  .stat{
+    font-size: .9rem;
+    padding: 7px 4px;
+    border: 5px solid transparent;
+  }
+ 
 }
-
-#calender{
-  width: 70%;
-  margin: auto;
-}
-

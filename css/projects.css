@@ -66,9 +66,6 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.git {
-  /* background-color: aliceblue; */
-}
 .git img {
   border: 5px solid transparent;
   border-radius: 10px;
@@ -148,9 +145,7 @@
 }
 
 @media all and (min-width: 631px) and (max-width: 1200px) {
-  #projects {
-    /* max-width: 600px; */
-  }
+  
   #projectContainer {
     /* display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -181,15 +176,17 @@
 @media all and (min-width: 300px) and (max-width: 630px) {
   #projects {
     max-width: 350px;
+    width: 80%;
   }
-
+  
   #projectContainer {
+    width: 100%;
     margin: auto;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, 1fr);
   }
   .imgDiv img {
-    width: 300px;
+    width: 100%;
     height: 180px;
     /* cursor: zoom-in; */
   }
@@ -207,6 +204,12 @@
   }
   .netlifyLink {
     font-size: 0.7rem;
+  }
+  .techStackProjectImg img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    padding: 5px;
   }
   
 }

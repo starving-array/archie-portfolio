@@ -231,8 +231,8 @@
     <!-- calender github -->
     <div id="calender" class="scrollmode">
       <h3 class="titleCenter">GitHub Calendar</h3>
-      <div class="calendar"></div>
     </div>
+    <div class="calendar"></div>
       
       <footer>
       <div id="contact">
@@ -286,10 +286,10 @@
   GitHubCalendar(".calendar", "starving-array", { responsive: true });
 
   // Use a proxy
-  GitHubCalendar(".calendar", "starving-array", {
-       proxy (username) {
-         return fetch(`https://your-proxy.com/github?user=${username}`)
-       }
-    }).then(r => r.text())
+  // GitHubCalendar(".calendar", "starving-array", {
+  //      proxy (username) {
+  //        return fetch(`https://your-proxy.com/github?user=${username}`)
+  //      }
+  //   }).then(r => r.text())
 </script>
 <script src="./js/lazyScroll.js"></script>
