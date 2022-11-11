@@ -11,7 +11,7 @@ let projectBanner = [
 let webLink = [
   "https://drive.google.com/file/d/1l0FwiGVOrkwyMEDJ-uoaQBEkUGe3x2Bs/view?usp=sharing",
   "https://virtual-mc-donald.netlify.app/",
-  "https://mellow-tanuki-fb3e28.netlify.app/",
+  "https://starving-array.github.io/NPM--Nykaa-Project-Masai/",
   "https://weather-archie.netlify.app/",
   "https://adorable-cobbler-b9755b.netlify.app/index.html",
 ];
