@@ -13,7 +13,7 @@ let webLink = [
   "https://virtual-mc-donald.netlify.app/",
   "https://starving-array.github.io/NPM--Nykaa-Project-Masai/",
   "https://weather-archie.netlify.app/",
-  "https://adorable-cobbler-b9755b.netlify.app/index.html",
+  "https://geek-buying-cloned.netlify.app/",
 ];
 let gitLink = [
   "https://github.com/starving-array/Bus-Reservation-System",
